@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Carousel Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider" id="slider">
+    <div class="slider__content">
+        <div class="slider__content-description">
+            <div class="slider__content-description--title">
+                <h4>Lundev</h4>
+                <h1>Design Slider</h1>
+                <h2>Corporate</h2>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Similique saepe error voluptatum delectus consectetur, est 
+                earum sit incidunt explicabo ut reprehenderit omnis, quas neque 
+                debitis quam voluptates sunt dolores enim.
+            </p>
+            <div class="slider__content-description--button">
+                <button class="btn btn-simple">SEE MORE</button>
+                <button class="btn btn-transparent">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider__carousel">
+        <div class="slider__carousel-btn slider__carousel-btn--prev" id="prevBtn">
+            <img src="/image/previous-svgrepo-com.svg" alt="Previous Slide">
+        </div>
+        <div class="slider__carousel-items" id="carouselItems">
+            <img src="/image/card-2.jpg" alt="Slide 1" class="item active">
+            <img src="/image/card-4.jpg" alt="Slide 2" class="item">
+            <img src="/image/card-5.jpg" alt="Slide 3" class="item">
+            <img src="/image/hero.jpg" alt="Slide 4" class="item">
+        </div>
+        <div class="slider__carousel-btn slider__carousel-btn--next" id="nextBtn">
+            <img src="/image/next-svgrepo-com.svg" alt="Next Slide">
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
